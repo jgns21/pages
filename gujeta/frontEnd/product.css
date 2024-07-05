@@ -1,0 +1,133 @@
+.container{
+}
+
+.icon-link > .bi {
+  width: .75em;
+  height: .75em;
+}
+
+/*
+ * Custom translucent site header
+ */
+
+.site-header {
+  background-color: rgba(0, 0, 0, .85);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(180%) blur(20px);
+}
+.site-header a {
+  color: #8e8e8e;
+  transition: color .15s ease-in-out;
+}
+.site-header a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.position-relative{
+  background: url('img/header4.svg'); 
+  height: 430px;
+  background-size: cover;
+  background-repeat: no-repeat;  
+}
+
+main h1 {
+  text-align: center;
+  margin-top: 5px;
+  font-size: 40px;
+  letter-spacing: 2px;
+  margin-left: 50px;
+  margin-right: 50px;
+  font-family: Outfit,sans-serif;
+  animation: fluido 10s ease-in-out infinite;
+  background: linear-gradient(-45deg,#e5e248, #23a6d5, #23d5ab);
+  background-size: 300%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@keyframes fluido {
+  0% { background-position: 0 50% }
+  50% { background-position: 100% 50% }
+  100% { background-position: 0 50% }
+}
+
+main h3{
+  font-family: Outfit,sans-serif;
+  background: rgb(199, 199, 199);
+  background-size: 300%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.bg-light1{
+  background: url('img/aca.svg'); 
+  height: 430px;
+  background-size: cover;
+  background-repeat: no-repeat;  
+}
+
+.bg-light2{
+  background: url('img/leon2.svg'); 
+  height: 430px;
+  background-size: cover;
+  background-repeat: no-repeat;  
+}
+
+.bg-light3{
+  background: url('img/qro.svg'); 
+  height: 430px;
+  background-size: cover;
+  background-repeat: no-repeat;  
+}
+
+.bg-light4{
+  background: url('img/sabris2.svg'); 
+  height: 430px;
+  background-size: cover;
+  background-repeat: no-repeat;  
+}
+
+.bg-light5{
+  background: url('img/5.svg'); 
+  height: 430px;
+  background-size: cover;
+  background-repeat: no-repeat;  
+}
+
+.bg-light6{
+  background: url('img/6.svg'); 
+  height: 430px;
+  background-size: cover;
+  background-repeat: no-repeat;  
+}
+
+.bg-light7{
+  background: url('img/7.svg'); 
+  height: 430px;
+  background-size: cover;
+  background-repeat: no-repeat;  
+}
+
+.bg-light8{
+  background: url('img/8.svg'); 
+  height: 430px;
+  background-size: cover;
+  background-repeat: no-repeat;  
+}
+
+.icon-link{
+  font-family: Outfit,sans-serif;
+}
+
+
+.flex-equal > * {
+  flex: 1;
+}
+@media (min-width: 768px) {
+  .flex-md-equal > * {
+    flex: 1;
+  }
+}
